@@ -1,0 +1,35 @@
+{
+  "name": "tre-track-stations",
+  "version": "1.0.0",
+  "description": "montor a station's config",
+  "keywords": [
+    "tre"
+  ],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "dependencies": {
+    "collect-mutations": "^1.0.5",
+    "debounce": "^1.2.0",
+    "debug": "^4.1.1",
+    "minimist": "^1.2.0",
+    "multicb": "^1.2.2",
+    "mutant": "^3.22.1",
+    "pull-split": "^0.2.0",
+    "pull-stream": "^3.5.0",
+    "scuttlebot-release": "^11.3.3",
+    "stream-to-pull-stream": "^1.7.2",
+    "tre-prototypes": "^1.6.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/tre-track-station.git"
+  },
+  "bugs": {
+    "url": "https://github.com/regular/tre-track-station/issues"
+  },
+  "homepage": "https://github.com/regular/tre-track-station#readme"
+}
