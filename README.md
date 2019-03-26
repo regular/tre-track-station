@@ -1,4 +1,4 @@
-tre-track-station
+tre-track-stations
 ---
 
-License: ISC
+License: AGPLv3
