@@ -5,7 +5,7 @@ const track = require('.')
 const equal = require('deep-equal')
 const argv = require('minimist')(process.argv.slice(2))
 
-const outPath = "/etc/tre-station.json"
+const outPath = "/etc/tre-station/content.json"
 
 if (!argv.socketPath) {
   console.error(`USAGE: ${process.argv[1]} --socketPath SOCKET [--debounce MILLISECONDS]`)
