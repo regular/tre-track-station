@@ -1,9 +1,13 @@
 {
-  "name": "tre-track-stations",
-  "version": "1.1.0",
-  "description": "montor a station's config",
+  "name": "tre-track-station",
+  "version": "2.0.0",
+  "description": "montor a station's config and write to /etc/tre-station/content.json",
+  "bin": {
+    "track-station": "bin.js"
+  },
   "keywords": [
-    "tre"
+    "tre",
+    "nixos"
   ],
   "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
   "license": "AGPL-3.0-or-later",
@@ -16,7 +20,6 @@
     "mutant": "^3.22.1",
     "pull-split": "^0.2.0",
     "pull-stream": "^3.5.0",
-    "scuttlebot-release": "^11.3.3",
     "stream-to-pull-stream": "^1.7.2",
     "tre-prototypes": "^1.6.0"
   },
