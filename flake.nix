@@ -52,7 +52,7 @@
 
         src = ./.;
 
-        npmDepsHash = "sha256-dyo/2uEBPfRtISebB09CJlf951FNV3sGVpX2N2xMWA0=";
+        npmDepsHash = "sha256-pFCsYV7arMtDE19BesVU3XbOsl7LGYdSxxeR7sKzq6A=";
         postBuild = ''
           mkdir -p $out/lib/node_modules/${pname}
           cat <<EOF > $out/lib/node_modules/${pname}/extra-modules-path.js

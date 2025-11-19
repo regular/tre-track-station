@@ -15,6 +15,7 @@
     "collect-mutations": "^1.0.5",
     "debounce": "^1.2.0",
     "debug": "^4.1.1",
+    "deep-equal": "^2.2.3",
     "minimist": "^1.2.0",
     "multicb": "^1.2.2",
     "mutant": "^3.22.1",
