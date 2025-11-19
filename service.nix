@@ -47,6 +47,7 @@ in with lib; {
 
       serviceConfig = {
         Type = "simple";
+        ExecStartPre = "${pkgs.coreutils}/bin/touch /etc/tre-station.json";
         ExecStart = "${cfg.package}/bin/track-station ${treOpts}";
         Restart = "always";
         WorkingDirectory = "/tmp";
@@ -60,6 +61,8 @@ in with lib; {
         ];
         BindPaths = [ 
           cfg.socket-path
+        ];
+        ReadWritePaths = [ 
           "/etc/tre-station.json"
         ];
         Environment = [
